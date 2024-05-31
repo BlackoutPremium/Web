@@ -60,6 +60,7 @@ theme.
   outline: none !important;
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -811,7 +812,7 @@ textarea {
   padding: 0;
 }
 .all-cases .inner ul li {
-  font-size: 8vw;
+  font-size: 6vw;
   font-weight: 800;
   margin: 0;
   padding: 0;
@@ -903,9 +904,16 @@ textarea {
 .left-side .logo {
   display: inline-block;
   margin-bottom: auto;
+  text-align: center;
+  transform: rotate(-90deg);
+  margin: auto;
+  font-size: 35px;
+  width: 140px;
+  height: 80px;
+  color: #fff;
 }
 .left-side .logo img {
-  width: 50px;
+  width: 100px;
 }
 .left-side .hamburger {
   margin: auto;
@@ -1385,7 +1393,7 @@ textarea {
   padding-bottom: 5px;
 }
 .intro a:hover {
-  border-color: #fff;
+  border-color: #f4eeee;
 }
 
 /* INTRO IMAGE */
@@ -2725,7 +2733,7 @@ html[dir=rtl] .footer .footer-bar .creation {
   }
 
   .all-cases .inner ul li {
-    font-size: 13vw;
+    font-size: 7.5vw;
   }
 
   .site-navigation .inner {
