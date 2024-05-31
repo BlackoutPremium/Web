@@ -221,7 +221,7 @@ textarea {
 
 .animated .char {
   display: inline-block;
-  animation: texteffect 0.6s cubic-bezier(0.5, 0, 0.5, 1) both;
+  animation: texteffect 0.8s cubic-bezier(0.5, 0, 0.5, 1) both;
   animation-delay: calc(10ms * var(--char-index));
 }
 
@@ -654,10 +654,12 @@ textarea {
 /* SECTION TITLES */
 .section-title {
   font-family: "Fjalla One", sans-serif;
-  margin-bottom: 80px;
   line-height: 1.4;
   font-size: 4vw;
   letter-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* SOCIAL MEDIA */
@@ -2220,8 +2222,8 @@ textarea {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 150px 0;
-  background: #fff;
+  padding: 80px 0;
+  background: #000000;
   box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.3);
 }
 .clients ul {
@@ -2234,12 +2236,9 @@ textarea {
   border-bottom: 1px solid #eee;
 }
 .clients ul li {
-  width: 33.33333%;
+  width:100%;
   margin: 0;
-  padding: 40px;
-  list-style: none;
-  border-left: 1px solid #eee;
-  border-top: 1px solid #eee;
+  padding: 20px;
 }
 
 /* CONTACT */
