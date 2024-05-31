@@ -903,11 +903,12 @@ textarea {
 }
 .left-side .logo {
   display: inline-block;
-  margin-bottom: auto;
   text-align: center;
   transform: rotate(-90deg);
+  /* Adjusted margin to center the rotated element */
   margin: auto;
   font-size: 35px;
+  /* Swapped width and height to match the rotated dimensions */
   width: 140px;
   height: 80px;
   color: #fff;
