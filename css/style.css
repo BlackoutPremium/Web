@@ -655,7 +655,7 @@ textarea {
 .section-title {
   font-family: "Fjalla One", sans-serif;
   line-height: 1.4;
-  font-size: 5vw;
+  font-size: 4vw;
   letter-spacing: 2px;
   align-items: center;
   justify-content: center;
@@ -2222,7 +2222,7 @@ textarea {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 100px 0;
+  padding: 100px;
   background: #000000;
   box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.3);
 }
@@ -2536,7 +2536,7 @@ html[dir=rtl] .footer .footer-bar .creation {
 /* RESPONSIVE TABLET FIXES */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
   .section-title {
-    font-size: 8vw;
+    font-size: 7vw;
     margin-bottom: 50px;
   }
 
@@ -2711,7 +2711,7 @@ html[dir=rtl] .footer .footer-bar .creation {
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .section-title {
     font-size: 9vw;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
 
   .slider .gallery-thumbs {
